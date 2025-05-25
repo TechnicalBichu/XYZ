@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-url_list = {}
+url_list = {pencarimovie.com}
 api_key = "5c5b123fe2ddc3e1310882a6150a016a9a6a9edc"
 
 
