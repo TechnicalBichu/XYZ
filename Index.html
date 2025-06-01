@@ -357,10 +357,10 @@ function displayProducts(filteredProducts) {
         let productDiv = document.createElement("div");
         productDiv.classList.add("product");
         productDiv.innerHTML = `
-            <img src="${product.image}" alt="${product.name}">
-            <span>${product.name}</span>
+            <img src="${product.thumbnail}" alt="${product.Title3}">
+            <span>${product.Title3}</span>
         `;
-        productDiv.onclick = () => window.open(product.link, "_blank");
+        productDiv.onclick = () => window.open(product.streamUrl, "_blank");
 
         productList.appendChild(productDiv);
     });
