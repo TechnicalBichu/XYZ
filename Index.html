@@ -336,7 +336,7 @@ async function fetchJSON() {
     const githubRawUrl = "https://mymoviesclan-demo-api.vercel.app/api/files"; // GitHub Raw JSON URL
 
     try {
-        const response = await fetch(githubRawUrl);
+        const response = await fetch(apiUrl);
         const json = await response.json(); // JSON Parse करें
         products = json;
 
