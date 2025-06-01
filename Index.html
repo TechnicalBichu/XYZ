@@ -275,8 +275,6 @@ body {
 
       
     </style>
-<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
-<meta name='google-adsense-platform-domain' content='blogspot.com'/>
 </head>
 <body>
 
@@ -335,7 +333,7 @@ let products = []; // JSON Data Store करने के लिए Global Varia
 let selectedTag = "all"; // 🏷 Current Selected Tag Store
 
 async function fetchJSON() {
-    const githubRawUrl = "https://raw.githubusercontent.com/bichupg/novadisk/refs/heads/Movies/prdct.json"; // GitHub Raw JSON URL
+    const githubRawUrl = "https://mymoviesclan-demo-api.vercel.app/api/files"; // GitHub Raw JSON URL
 
     try {
         const response = await fetch(githubRawUrl);
